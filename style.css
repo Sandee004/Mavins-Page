@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  color: white;
+}
+
+.navbar {
+  background: black;
+  color: white;
+  display: flex;
+  flex-basis: content;
+}
+.navbar .logo svg {
+  margin: 0 10px 0 120px;
+  vertical-align: middle;
+}
+.navbar .logo span {
+  font-size: 30px;
+  vertical-align: middle;
+  font-weight: 200;
+}
+.navbar .links {
+  margin: auto;
+}
+.navbar .links a {
+  text-align: center;
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+.navbar .socials {
+  margin: auto 100px auto 0;
+}
+.navbar .socials svg {
+  margin-right: 16px;
+}
+
+.carousel {
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.mySlides .text .tag1 {
+  background: rgba(0, 0, 0, 0.5);
+  margin-left: 550px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  line-height: 32px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  padding: 8px;
+}
+.mySlides .text .tag1 :nth-child(1) {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+}
+.mySlides .text .tag1 :nth-child(2) {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #FFF097;
+}
+.mySlides .text .tag2 {
+  background: #AE7C25;
+  padding: 8px;
+  font-weight: 600;
+  display: flex;
+  font-size: 21px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: left;
+  margin: 0px 0 -28px 150px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -32px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 100px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 100px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  margin-top: 50px;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  display: inline;
+  background-color: red;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bod {
+  background: black;
+  height: 100vh;
+  text-align: center;
+}
+.bod .icons {
+  vertical-align: middle;
+  margin-top: 90px;
+  margin-bottom: 100px;
+  font-size: 16px;
+  color: #B9A363;
+}
+.bod .icons div {
+  display: inline-block;
+  margin-right: 40px;
+}
+.bod h2 {
+  color: #EECA5D;
+  font-weight: 700;
+}
+.bod p {
+  font-size: 16px;
+  margin-bottom: 110px;
+}
+.bod .split1 {
+  vertical-align: middle;
+}
+.bod .split1 .left {
+  float: left;
+  margin: 0 180px 0 150px;
+  text-align: left;
+}
+.bod .split1 .left h3 {
+  color: #EECA5D;
+  margin-bottom: 5px;
+}
+.bod .split1 .left p {
+  font-size: 16px;
+}
+.bod .split1 .left p span {
+  color: #EECA5D;
+}
+.bod .split1 img {
+  float: right;
+  width: 300px;
+  height: 420px;
+  margin: 0 130px 0 0;
+  border: 2px solid #AE7C25;
+}/*# sourceMappingURL=style.css.map */
