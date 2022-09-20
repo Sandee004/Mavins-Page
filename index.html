@@ -146,7 +146,6 @@
                 </svg>
                 <p>CONTENT PRODUCTION</p>
             </div>
-
         </div>
 
         <h2>Mavin Records</h2>
@@ -157,30 +156,29 @@
                 <h3>Best Record Label of the Year</h3>
                 <p>The label won the aforementioned category at the <br><span>2014 City People Entertainment Awards.</span>
                 </p>
+                <!--div>
+                    <span class="nos">+11</span><br>
+                    <span class="value">artistes</span>
+                </div>
+
+                <div>
+                    <span class="nos">+16</span><br>
+                    <span class="value">albums</span>
+                </div-->
+                <p class="set">
+                    <span class="no">+11</span> <span class="no">+16</span>
+                <br>
+                    <span class="val">artists</span> <span class="val">albums</span>
+                </p>
             </div>
 
-            <div classright>
+            <div class="right">
                 <img src="img1.png">
             </div>
         </div>
     </div>
     
 
-<script>
-    let slideIndex = 0;
-        showSlides();
-
-        function showSlides() {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1 }
-            slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 4000); // Change image every 2 seconds
-        }
-</script>
+<script src="script.js"></script>
 </body>
 </html>
