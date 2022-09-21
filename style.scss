@@ -8,11 +8,18 @@ body{
     overflow-x: hidden;
     color: white;
 }
+
+@media (max-width: 1000px) {
+    body{
+        display: none;
+    }
+}
+
 .navbar{
     background: black;
     color: white;
     display: flex;
-    flex-basis: content;
+    //flex-basis: content;
 
     .logo{
         //display: inline;
@@ -179,6 +186,7 @@ body{
 .bod{
     background: black;
     height: 100vh;
+    display: block;
     text-align: center;
     //justify-content: center;
     .icons{
@@ -199,15 +207,18 @@ body{
     }
     p{
         font-size: 16px;
-        margin-bottom: 110px;
+        //margin-bottom: 10px;
     }
     .split1{
-        margin-bottom: 50px;
+        margin: 110px 0 40px 0;
+        display: block;
+        //border: 10px solid white;
+        height: 470px;
         .left{
             float: left;
-            margin: 150px 0px 0 150px;
+            margin: 130px 0px 0 150px;
             text-align: left;
-            //vertical-align: middle;
+
             h3{
                 color: #EECA5D;
                 margin-bottom: 5px;
@@ -218,20 +229,9 @@ body{
                     color: #EECA5D;
                 }
             }
-            div{
-                display: inline-block;
-                text-align: center;
-                margin-right: 8px;
-                margin-top: -120px;
-                padding: -120px;
-                color: #EECA5D;
-                .nos{
-                    font-size: 30px;
-                    margin-top: -120px;
-                }
-            }
+
             .set {
-                margin: -100px 0 0 0;
+                //margin: -100px 0 0 0;
                 padding: 0;
                 .no{
                     font-size: 30px;
@@ -251,4 +251,63 @@ body{
             border: 15px solid #AE7C25;
         }
     }
+
+    .split2{
+        //display: inline-block;
+        margin: 50px 0 80px 0;
+        height: 400px;
+        //padding: 0 100px 0 100px;
+        border: 10px solid white;
+        .left{
+            float: left;
+            width: 130px;
+            height: 130px;
+            margin: 0 0px 0px 130px;
+            border: 15px solid #AE7C25;
+            background: white;
+        }
+        .left2{
+                border: 15px solid #AE7C25;
+                width: 130px;
+                height: 130px;
+                position: absolute;
+                margin: 170px 0 0 300px;
+            }
+        img{
+            height: 300px;
+            width: 300px;
+            position: relative;
+            float: left;
+            margin: 15px 0 0 -145px;
+        }
+
+        .right{
+            float: right;
+            margin: 100px 130px 0 0;
+            text-align: left;
+            h3{
+                color: #EECA5D;
+                margin-bottom: 5px;
+            }
+            p{
+                font-size: 16px;
+                
+                span{
+                    color: #EECA5D;
+                }
+            }
+            .set {
+                padding: 0;
+                .no{
+                    font-size: 30px;
+                    margin-right: 55px;
+                }
+                .val{
+                    margin-right: 45px;
+                }
+            }
+        }
+    }
+
+    
 }
