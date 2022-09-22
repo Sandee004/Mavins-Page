@@ -10,7 +10,7 @@ body {
   color: white;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   body {
     display: none;
   }
@@ -252,7 +252,6 @@ body {
 .bod .split2 {
   margin: 50px 0 80px 0;
   height: 400px;
-  border: 10px solid white;
 }
 .bod .split2 .left {
   float: left;
@@ -300,4 +299,43 @@ body {
 }
 .bod .split2 .right .set .val {
   margin-right: 45px;
+}
+.bod .video .image {
+  display: auto;
+  margin: auto;
+}
+.bod .video .image img {
+  width: cover;
+  height: 500px;
+  border: 2px solid white;
+}
+.bod .video .base {
+  font-weight: 700;
+}
+.bod .video .base h3 {
+  text-align: center;
+  color: #EECA5D;
+  margin: 100px 0 20px 0;
+}
+.bod .video .base img {
+  width: 88%;
+  height: 240px;
+  display: block;
+  margin: 50px auto;
+}
+.bod .video .base .link {
+  border: 0.4px solid #AE7C25;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: auto auto 20px auto;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 4px;
+  font-weight: 400;
+}
+.bod .video .base .link:hover {
+  cursor: pointer;
+  background-color: #AE7C25;
 }/*# sourceMappingURL=style.css.map */
